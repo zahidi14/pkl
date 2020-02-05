@@ -1,0 +1,46 @@
+{
+  "mobils": [
+    {
+      "name": "Avanza",
+      "capacity": 7,
+      "isAvailable": true,
+      "location": "Bar"
+    },
+    {
+      "name": "Xenia",
+      "capacity": 7,
+      "isAvailable": true,
+      "location": "Patio"
+    },
+    {
+      "name": "Innova",
+      "capacity": 7,
+      "isAvailable": true,
+      "location": "Bar"
+    },
+    {
+      "name": "Innova Reborn",
+      "capacity": 7,
+      "isAvailable": true,
+      "location": "Inside"
+    },
+    {
+      "name": "Elf short",
+      "capacity": 15,
+      "isAvailable": true,
+      "location": "Patio"
+    },
+    {
+      "name": "Elf Long",
+      "capacity": 20,
+      "isAvailable": true,
+      "location": "Patio"
+    },
+    {
+      "name": "Hi Ace",
+      "capacity": 20,
+      "isAvailable": true,
+      "location": "Bar"
+    }
+  ]
+}
