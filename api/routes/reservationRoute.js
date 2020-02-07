@@ -14,6 +14,16 @@ const Reservation = require("../models/reservation").model;
 // 	"email": String
 // }
 
+router.get("/", function(req, res)  {
+  Day.find({})
+  .then((result) =>{
+    res.json(result);
+  })
+  .catch((err) => {
+    res.status(500).json({ success: false, msg: `Something went wrong. ${err}` });
+  });
+});
+
 router.post("/", function(req, res, next) {
   Day.find({ date: req.body.date }, (err, days) => {
     if (!err) {

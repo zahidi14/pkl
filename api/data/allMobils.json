@@ -3,44 +3,58 @@
     {
       "name": "Avanza",
       "capacity": 7,
-      "isAvailable": true,
-      "location": "Bar"
+     
+      "tipe": "MPV",
+      "harga" : "450.000",
+      "isAvailable": true
     },
     {
       "name": "Xenia",
       "capacity": 7,
-      "isAvailable": true,
-      "location": "Patio"
+      
+      "tipe": "MPV",
+      "harga" : "450.000",
+      "isAvailable": true
     },
     {
-      "name": "Innova",
+      "name": "Grand New Innova",
       "capacity": 7,
-      "isAvailable": true,
-      "location": "Bar"
+     
+      "tipe": "MPV",
+      "harga" : "650.000",
+      "isAvailable": true
     },
     {
-      "name": "Innova Reborn",
+      "name": "Grand New Innova Reborn",
       "capacity": 7,
-      "isAvailable": true,
-      "location": "Inside"
+     
+      "tipe": "MPV",
+      "harga" : "750.000",
+      "isAvailable": true
     },
     {
       "name": "Elf short",
       "capacity": 15,
-      "isAvailable": true,
-      "location": "Patio"
+     
+      "tipe": "Minibus",
+      "harga" : "1.000.000",
+      "isAvailable": true
     },
     {
       "name": "Elf Long",
       "capacity": 20,
-      "isAvailable": true,
-      "location": "Patio"
+      
+      "tipe": "Minibus",
+      "harga" : "1.000.000",
+      "isAvailable": true
     },
     {
       "name": "Hi Ace",
       "capacity": 20,
-      "isAvailable": true,
-      "location": "Bar"
+      
+      "tipe": "Minibus",
+      "harga" : "1.300.000",
+      "isAvailable": true
     }
   ]
 }

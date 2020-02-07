@@ -5,8 +5,10 @@ const reservationSchema = require("./reservation").schema;
 var mobilSchema = new mongoose.Schema({
   name: String,
   capacity: Number,
+ 
+  tipe: String,
+  harga: String,
   isAvailable: Boolean,
-  location: String,
   reservation: {
     required: false,
     type: reservationSchema
